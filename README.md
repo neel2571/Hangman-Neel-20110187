@@ -1,8 +1,7 @@
-# Project
-Libraries Used: BeautifulSoup, requests, collections and random.
+# Python Course Project
+My project is a combination of a web crawler and a word-guessing game known as Hangman. Basically, the code crawls through a web page, scraps all the unwanted characters and stores some of the most occurring words in a list. Then, the random module helps to choose any random word from that list and asks us to guess that word. We get a limited number of chances for that. If we are able to guess the word, we win else we lose. The web crawling part uses some libraries such as Beautiful Soup, requests, collections and operators. Requests allow us to send HTTP requests. Beautiful Soup helps in pulling data out of HTML files. The collections module provides different types of containers like tuple, list, dictionaries etc. that store data.
 
-Acknowledgements:
-1.	URL:https://www.geeksforgeeks.org/which-programming-language-should-i-choose-as-a-beginner/?ref=lbp, https://www.geeksforgeeks.org/i-cant-use-logic-in-programming-what-should-i-do/?ref=lbp, https://www.geeksforgeeks.org/how-to-approach-a-coding-problem/?ref=lbp. 
-2.	Hangman:https://www.geeksforgeeks.org/python-program-for-word-guessing-game/. 
-3.	Libraries:https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python, https://www.w3schools.com/python/module_requests.asp, https://www.geeksforgeeks.org/python-collections-module/. 
-4.	Web-Crawler:https://dev.to/pranay749254/build-a-simple-python-web-crawler.
+References: 
+1.	https://www.geeksforgeeks.org/python-program-for-word-guessing-game/. 
+2.	https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python, https://www.w3schools.com/python/module_requests.asp, https://www.geeksforgeeks.org/python-collections-module/. 
+3.	https://dev.to/pranay749254/build-a-simple-python-web-crawler.
